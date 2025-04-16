@@ -22,7 +22,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-textarea {
+.teclado {
     width:90%;
     height: 20px;
     padding: 10px;
