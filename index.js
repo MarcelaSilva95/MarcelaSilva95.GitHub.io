@@ -1,6 +1,19 @@
-var memoria = "";
-var caixaTexto = document.getElementById('resultado');
-function guardarValor (valor){
-	memoria += valor;
-caixaTexto.value = memoria;
+let display = document.getElementById("display");
+
+function adicionarValor(valor) {
+    display.value += valor;
+}
+
+function limpar() {
+    display.value = "";
+}
+
+function calcular() {
+    try {
+        display.value = eval(display.value);
+    } catch {
+        display.value = "Erro";
+    }
+    
+    display.value = "";
 }
