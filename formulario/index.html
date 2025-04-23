@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Formulário</title>
+    <style>
+        div{
+            whidth: 100%
+        }
+    </style>
 </head>
 <body>
     <h1>Qual sua música favorita?</h1>
     <form method="post" action="https://formtester.goodbytes.be/post.php">
-    <div>    
+    <fieldset>    
     <label for="nomeMusica">Digite o nome da música: </label>
     <input type='text' id="nomeMusica" name="nomeMusica"/>
-     </div>
+     </fieldset>
         <div>
     <label for="nomeArtista">Digite o nome do artista: </label>
     <input type='text' id="nomeArtista" name="nomeArtista"/>
