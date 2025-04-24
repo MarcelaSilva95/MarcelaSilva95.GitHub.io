@@ -52,6 +52,28 @@
     <input type='radio' id="pop" name="estilo"/>
 </div>
 </fieldset>
+<fieldset>
+    <label >Qualidades</label>
+<div>
+    <input type='checkbox' name="qualidade[]" id="qualidadeVoz" />
+    <label for="qualidadeVoz">Voz</label>
+</div>
+<div>
+    <input type='checkbox' name="qualidade[]" id="qualidadeLetra" />
+    <label for="qualidadeLetra">Letra</label>
+</div>
+</fieldset>
+<fieldset>
+            <label >Efeitos na gente</label>
+            <div>
+                <input type='checkbox' name="adjetivosCalma" id="adjetivosCalma" />
+                <label for="adjetivosCalma">Calma</label>
+</div>
+<div>
+                <input type='checkbox' name="adjetivosRelaxante" id="adjetivosRelaxante" />
+                <label for="adjetivosRelaxante">Relaxante</label>
+</div>
+</fieldset>
 <div>
     <label for="nomeArtista">Digite o nome do artista: </label>
     <input type='text' id="nomeArtista" name="nomeArtista" placeholder="Henrique e Juliano"/>
@@ -96,6 +118,7 @@
     <input type='hidden' id="usuario" name="usuario" value="Marcela"/>
 </div>
     <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
     <form/>
 </body>
 </html>
